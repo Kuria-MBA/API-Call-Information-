@@ -11,7 +11,7 @@
     //getDistanceFromDestPort
 
   ##GetLiveFlightInfo
-  ```
+  ```javascript
   ///Call
   GetLiveFlightInfo();
   ///Output:
@@ -25,7 +25,7 @@
   ```
 
   ##GetLastFlightInfo
-  ```
+  ```javascript
   ///Call
   GetLastFlightInfo();
   ///output:
@@ -38,7 +38,7 @@
   
   ```
   ##InAirChecker
-  ```
+  ```javascript
   ///Verifies if the flight is in the air or not, runs every 10 minutes checking if a single Flight is not on the ground, if it isnt it pushes a notification to the selected security services 
   ///CALL
   InAirChecker();
@@ -52,7 +52,7 @@
   ```
 
   ##AddresstoLatLong
-  ```
+  ```javascript
   ///Converts an airport address to a longitudinal or latitudinal value to be compared to current flight longitude and latitude
   //Call:
   AddresstoLatLong();
@@ -64,7 +64,7 @@
   ```
 
   ##getDistanceFromDestPort
-  ```
+  ```javascript
   ///Gets the distance from the InAirChecker() and obtains the distance between the flight and the airport, it then pushes a notification to security services on departure and estimated time to arrival based on airspeed and distance left
   ///Call
   getDistanceFromDestPort();
